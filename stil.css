@@ -1,0 +1,92 @@
+@charset 'utf-8';
+/* CSS Document */
+@font-face {
+    font-family: 'antoniazadro';
+    src:   url('font/AntoniaZadro1') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+	font-family:'Times New Roman'
+	color:black
+}
+p {
+	width: auto
+	}
+p {
+	font-size: 16px
+	}
+p {
+	line-height:18px
+	}
+p {
+	background-color:white
+	}
+p {
+	padding: 50px
+	
+	}
+
+span {color: rgb( 255, 0 ,255) ;}
+body {
+	background-image: url('slike/9.jpg')
+	}
+	
+	a {
+		color:  black
+		}
+		a:link {
+		background-color: rgb(211, 54, 130)
+		}
+	a:hover{
+		background-color:  fuchsia
+		}
+	img {
+		height: 400px
+		}
+		li {
+			margin:20px
+			}
+			ol {
+		width: 400px
+		}
+		ol {
+		background-color: rgb(238, 232, 213)
+		}
+		ul  {
+		background-color: rgb(253,246,227)
+		}
+		ul {
+		width: 400px
+		}
+		
+		h2 {
+			font-family: 'antoniazadro';
+			color: black;
+			font-size: 1cm
+		}
+		
+		h1 {
+		font-family: 'antoniazadro';
+		color: black;
+		font-size: 2cm
+		}
+		ul {	padding:20px; /*centriranje*/
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 430px;
+			} 
+	li {	display:inline; 
+			background-color:rgb(211, 54, 130);
+			padding:20px;
+			border: 2px solid fuchsia
+		}
+	li:active {background-color:fuchsia;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:black; 
+			font-family: "Montserrat", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+		

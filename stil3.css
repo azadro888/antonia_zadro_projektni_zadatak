@@ -1,0 +1,82 @@
+@charset 'utf-8';
+/* CSS Document */
+p {
+	color:black
+
+}
+p {
+	width: 600px
+	}
+p {
+	font-size: 16px
+	}
+p {
+	line-height:18px
+	}
+p {
+	background-color:white
+	}
+p {
+	padding: 20px
+	}
+
+span {color: gold ;}
+body {
+	background-image: url('slike/11.jpg')
+	}
+	
+	a {
+		color:  black
+		}
+		a:link {
+		background-color: gold
+		}
+	a:hover{
+		background-color:  white
+		}
+	img {	/*centriranje*/
+		margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+		}
+		li {
+			margin:20px
+			}
+			ol {
+		width: 400px
+		}
+		ol {
+		background-color: rgb(238, 232, 213)
+		}
+		ul  {
+		background-color: rgb(253,246,227)
+		}
+		ul {
+		width: 400px
+		}
+		
+		h2 {
+		color: white
+		}
+		
+		h1 {
+		color: black
+		}
+		ul {	padding:20px; /*centriranje*/
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 450px;
+			} 
+	li {	display:inline; 
+			background-color:gold;
+			padding:20px;
+			border: 2px solid white
+		}
+	li:active {background-color:white;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:black; 
+			font-family: "Montserrat", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
